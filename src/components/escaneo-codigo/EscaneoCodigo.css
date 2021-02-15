@@ -1,0 +1,155 @@
+.main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 86vh;
+    padding: 4%;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.link{
+    width: 10%;
+    height: 10%;
+
+}
+.atrass{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.bannerImagenesContainer{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bannerImagenes{
+    width: 60%;
+    height: 70%;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.envio{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.accordion{
+    width: 100%;
+}
+.modalContainer{
+    width: 100%;
+}
+.Eti {
+    font-family: 'Branding',Helvetica,Arial,sans-serif;
+    font-size: 14px
+}
+
+.Eti .header {
+    padding: 15px 0 0 5px
+}
+
+.Eti .header p {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.Eti .Com {
+    position: relative;
+    display: block
+}
+
+.Eti .Com,.Eti .Cui {
+    padding: 5px 0 0 5px
+}
+
+.Eti .Cuni {
+    color: #6f7072;
+    display: inline
+}
+
+.Eti .Cuni_t span {
+    color: #0172ea
+}
+
+.Eti .Cui {
+    position: relative;
+    display: block;
+    margin-top: 5px
+}
+
+.Eti .Cui p {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #0172ea;
+    position: relative;
+    text-transform: lowercase
+}
+
+.Eti .Cui p::first-letter {
+    text-transform: capitalize
+}
+
+.Eti .Cui img {
+    display: inline;
+    margin: 0 15px 0 0;
+    max-width: 28px
+}
+
+.Eti .picto {
+    margin-top: 15px
+}
+
+.Eti p {
+    margin-bottom: 0
+}
+
+.Eti .header p:before {
+    content: "\e042";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: Glyphicons Halflings;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 7px;
+    transform: rotate(105deg);
+    margin-left: 4px;
+    font-size: 14px;
+    text-shadow: none
+}
+
+@media(min-width: 768px) {
+    div.Eti {
+        margin-bottom:10px;
+        width: 50%;
+        display: inline-block;
+        max-width: 50%
+    }
+}

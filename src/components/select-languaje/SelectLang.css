@@ -1,0 +1,47 @@
+.Container{
+  min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: column;
+           flex-flow: column;
+}
+.ContainerIdioma{
+  margin: 4px;
+  padding: 5px;
+  border: 1px solid #cccc33;
+  border-radius: 7pt;
+  background: #dddd88;
+  -webkit-flex: 3 1 60%;
+          flex: 3 1 60%;
+  -webkit-order: 2;
+          order: 2;
+}
+#title {
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+  }
+#main {
+  display: block;
+  margin:3vw;
+  max-width: 100%;
+  }
+
+ .divButton {
+  display:inline-block;
+  width:22.08%;
+  outline: none;
+  border: 0;
+  }
+  input{
+    width: 100%;
+    outline: none;
+    border: 0;
+  }
+  .divButton:nth-child(1n+1) {
+    margin-left:calc(22.08% * .1);
+  }
+
+

@@ -1,0 +1,39 @@
+{
+    "URL": "https://api400.mayoral.com/shop/",
+    "CONSPGMO2": {
+        "name": "CONSPGMO2",
+        "cordova": "7.1.4",
+        "manufacturer": "Google",
+        "model": "Android SDK built for x86",
+        "platform": "Android",
+        "serial": "EMULATOR30X1X5X0",
+        "appuuid": "3c3a202e9458bf27",
+        "version": "8.1.0",
+        "versionapp": 20210123,
+        "appid": 4,
+        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+        "datos": {
+            "programa": "CONSPGM02",
+            "p1": 501
+        }
+    },
+    "CONSPGM03": {
+        "name": "CONSPGMO3",
+        "cordova": "7.1.4",
+        "manufacturer": "Google",
+        "model": "Android SDK built for x86",
+        "platform": "Android",
+        "serial": "EMULATOR30X1X5X0",
+        "appuuid": "3c3a202e9458bf27",
+        "version": "8.1.0",
+        "versionapp": 20210123,
+        "appid": 4,
+        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+        "datos": {
+            "programa": "CONSPGM03",
+            "p1": 501,
+            "p2": "E",
+            "p3": ""
+        }
+    }
+}
