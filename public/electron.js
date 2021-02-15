@@ -5,8 +5,8 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const isDev = require('electron-is-dev');
 const nativeImage = require('electron').nativeImage;
-const { sqlite3 } = require('sqlite3');
-const Promise = require('bluebird');
+//const { sqlite3 } = require('sqlite3');
+//const Promise = require('bluebird');
 
 let mainWindow;
 
