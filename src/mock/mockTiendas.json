@@ -13,8 +13,11 @@
         "appid": 4,
         "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
         "datos": {
+            "area": "SHOP",
             "programa": "CONSPGM02",
-            "p1": 501
+            "body": {
+                "tienda": 501
+            }
         }
     },
     "CONSPGM03": {
@@ -30,10 +33,13 @@
         "appid": 4,
         "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
         "datos": {
+            "area": "SHOP",
             "programa": "CONSPGM03",
-            "p1": 501,
-            "p2": "E",
-            "p3": ""
+            "body": {
+                "tienda": 501,
+                "idioma": "G",
+                "codbar": "8445054585516"
+            }
         }
     }
 }
