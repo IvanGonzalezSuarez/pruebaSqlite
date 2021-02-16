@@ -27,10 +27,12 @@ function PantallaInicio() {
             });
             return response.json();
         }
-        MockTiendas.CONSPGM03.datos.p3 = codigo;
+        MockTiendas.CONSPGM03.datos.body.codbar = codigo;
+        console.log(MockTiendas.CONSPGM03.datos)
         postData(MockTiendas.URL + 'CONSPGM03', MockTiendas.CONSPGM03)
             .then(data => {
                 setDatosEscaneo(data.datos);
+                console.log(data.datos)
                 setShow(false);
             })
             .catch(error => {
@@ -103,7 +105,7 @@ function PantallaInicio() {
                     </div>
                 </div>
                 <div className="descripcion">
-                    <Accordion className="acordeon" >
+                    <Accordion className="acordeon" defaultActiveKey="0">
                         <Card>
                             <Card.Header>
                                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -121,16 +123,6 @@ function PantallaInicio() {
                                         ""
                                     }
                                 </Card.Body>
-                            </Accordion.Collapse>
-                        </Card>
-                        <Card>
-                            <Card.Header>
-                                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                    Envío / Devoluciones
-                            </Accordion.Toggle>
-                            </Card.Header>
-                            <Accordion.Collapse eventKey="1">
-                                <Card.Body>Soy el envio</Card.Body>
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>

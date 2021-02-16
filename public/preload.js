@@ -1,4 +1,5 @@
 const { ipcRenderer, contextBridge } = require('electron');
+const { autoUpdater } = require("electron-updater")
 
 contextBridge.exposeInMainWorld('api', {
   // Invoke Methods

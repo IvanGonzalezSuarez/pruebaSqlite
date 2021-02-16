@@ -1,6 +1,6 @@
 {
   "name": "tiendamayoral",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -9,7 +9,10 @@
     "add": "^2.0.6",
     "bootstrap": "^4.6.0",
     "electron-is-dev": "^1.2.0",
+    "electron-log": "^4.3.1",
     "electron-updater": "^4.3.5",
+    "node-gyp": "^7.1.2",
+    "node-pre-gyp": "^0.17.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-devtools": "^4.10.1",
@@ -28,7 +31,7 @@
     "postinstall": "electron-builder install-app-deps",
     "pack-app": "yarn build-react && electron-builder --publish never",
     "pack-app-mac": "yarn build-react && electron-builder --publish always",
-    "pack-app-win": "yarn build-react && electron-builder --win --publish always",
+    "pack-app-win": "yarn build-react && electron-builder --win --x64 --publish always",
     "pack-build": "electron-builder --dir",
     "electron-pack": "electron-builder --win -c.extraMetadata.main=build/electron.js",
     "build": "yarn build-react && electron-builder",
@@ -38,9 +41,10 @@
     "eject": "react-scripts eject"
   },
   "main": "public/electron.js",
+  "homepage": ".",
   "build": {
     "appId": "com.mayoral.SqliteReact",
-    "productName": "Sqlite-package",
+    "productName": "Package-sqlite",
     "files": [
       "build/**/*",
       "node_modules/**/*"
@@ -51,7 +55,7 @@
     "publish": [
       {
         "provider": "github",
-        "token": "0fad452767698e907981c197b1ca8082a62e36d8",
+       
         "publishAutoUpdate": true
       }
     ],
@@ -63,8 +67,7 @@
         {
           "target": "nsis",
           "arch": [
-            "x64",
-            "ia32"
+            "x64"
           ]
         }
       ]

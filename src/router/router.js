@@ -3,7 +3,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    Redirect
 } from "react-router-dom";
 import "./router.css";
 import SelectLang from '../components/select-languaje/SelectLang';
@@ -17,7 +18,7 @@ export default function BasicExample() {
                 <div className="nav">
                     <div className="pais">
                         <Link to={{
-                            pathname: '/',
+                            pathname: '/selectLanguaje',
 
                         }}> <input type="image" src="https://www.mayoralonline.com/LibComunes/Lib_img/ico/banderas/ES.png" alt="pais" className="atras" />
                         </Link>
@@ -26,8 +27,11 @@ export default function BasicExample() {
                         <img className="logo" src="https://static.mayoralonline.com/lib_img/logo/png/logo_n_2020.png" alt="logo"></img>
                     </div>
                 </div>
+                <Redirect
+                    from="/"
+                    to="/selectLanguaje" />
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/selectLanguaje">
                         <SelectLang />
                     </Route>
                     <Route path="/pantallaInicio">
