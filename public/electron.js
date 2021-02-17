@@ -34,7 +34,7 @@ const createWindow = () => {
       allowRunningInsecureContent: false,
       contextIsolation: true,
       enableRemoteModule: false,
-      nodeIntegration: false,
+      nodeIntegration: true,
       sandbox: true,
     },
   });

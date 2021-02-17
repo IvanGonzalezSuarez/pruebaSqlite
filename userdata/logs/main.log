@@ -1,0 +1,28 @@
+[2021-02-17 15:50:54.213] [debug] 
+[2021-02-17 15:50:54.221] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-17 15:50:54.226] [debug] 
+[2021-02-17 15:50:54.230] [debug] 
+[2021-02-17 15:50:54.234] [error] estanmos
+[2021-02-17 15:50:54.238] [info] Checking for update
+[2021-02-17 15:50:54.242] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-17 15:50:54.246] [debug] 
+[2021-02-17 15:50:55.210] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-17 15:52:26.090] [debug] 
+[2021-02-17 15:52:26.098] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-17 15:52:26.104] [debug] 
+[2021-02-17 15:52:26.109] [debug] 
+[2021-02-17 15:52:26.173] [error] estanmos
+[2021-02-17 15:52:26.178] [info] Checking for update
+[2021-02-17 15:52:26.182] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-17 15:52:26.186] [debug] 
+[2021-02-17 15:52:26.355] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\JMJ\Desktop\nuevoIvan\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
