@@ -1,12 +1,13 @@
 {
   "name": "tiendamayoral",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "add": "^2.0.6",
+    "bluebird": "^3.7.2",
     "bootstrap": "^4.6.0",
     "electron-is-dev": "^1.2.0",
     "electron-log": "^4.3.1",
@@ -52,17 +53,13 @@
     "directories": {
       "buildResources": "assets"
     },
-    "publish": [
-      {
-        "provider": "github",
-       
-        "publishAutoUpdate": true
-      }
-    ],
     "mac": {
       "category": "public.app-category.utilities"
     },
     "win": {
+      "publish": [
+        "github"
+      ],
       "target": [
         {
           "target": "nsis",
@@ -76,6 +73,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/IvanGonzalezSuarez/SqliteReact.git"
+  },
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
   },
   "eslintConfig": {
     "extends": [

@@ -5,13 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import App from './App';
 import App from './router/router';
 import reportWebVitals from './reportWebVitals';
-
+ 
 var destination = document.querySelector("#container");
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <h1> ESTOY ACTUALIZANDO BROOOO 0.1.1</h1>
+    <h1> ESTOY 0.1.1</h1>
   </React.StrictMode>,
   destination
 );
