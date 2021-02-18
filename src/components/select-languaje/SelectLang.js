@@ -80,7 +80,7 @@ function SelectLang() {
                             <button type="button" onClick={() => changeLanguage('en')}>
                                 en
                             </button>
-                            <h2>{t('title')}</h2>;
+                            <h2>{t('title')}</h2>
                         </div>
                     })
                     : ""

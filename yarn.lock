@@ -4728,6 +4728,11 @@ electron-log@^4.3.1:
   resolved "https://registry.yarnpkg.com/electron-log/-/electron-log-4.3.1.tgz#1405fef9d4e6964a5fdb8790a69163aa237ffe91"
   integrity sha512-S/0CMjYjgyWUsZ3d27VvErPaI5W4oILp4jfeCuN4DhDqrJW6jKRUD2PxFfTdeZEIjM7+fttGg7A61rPcAcZC1w==
 
+electron-pos-printer@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/electron-pos-printer/-/electron-pos-printer-1.2.4.tgz#f57a5fac2b4f189eed42afb4479303ccb82116bd"
+  integrity sha512-cO4wF3KhrE/6aAokZmPPlLMkCygsPfNv0/CkBsAXYaeN5TlfbQ9MF99P5UHxF++JBPcB6TCuog2DzNW0UF21sQ==
+
 electron-publish@22.9.1:
   version "22.9.1"
   resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-22.9.1.tgz#7cc76ac4cc53efd29ee31c1e5facb9724329068e"
