@@ -44,7 +44,7 @@ function SelectLang() {
         const response = await consulto({ num: mensaje });
         console.log(response);
         response !== null && response !== undefined ? setResponse(response) : setResponse([]);
-       
+
     }
 
     return (
@@ -55,8 +55,8 @@ function SelectLang() {
             <div id='main'>
                 {lenguajes.length > 0
                     ?
-                    lenguajes.map((elemento) => {
-                        return <div className="divButton">
+                    lenguajes.map((elemento, key) => {
+                        return <div className="divButton" key={key}>
                             <Link to={{
                                 pathname: '/pantallaInicio',
                                 state: { detail: elemento }
@@ -74,9 +74,9 @@ function SelectLang() {
                     ?
                     response.map((elemento) => {
                         return <div className="divButton">
-                            
+
                                 <p>{elemento.info} </p>
-                          
+
                         </div>
                     })
                     : ""

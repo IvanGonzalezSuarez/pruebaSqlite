@@ -1,10 +1,13 @@
-const { app, BrowserWindow, ipcMain } = require('electron'); // electron
+const { app, BrowserWindow, ipcMain, remote } = require('electron'); // electron
 const isDev = require('electron-is-dev'); // To check if electron is in development mode
 const path = require('path');
+const { PosPrinter } = require("electron-pos-printer");
 const { autoUpdater } = require("electron-updater");
 const sqlite3 = require('sqlite3');
 
 let mainWindow;
+let printers;
+
 const db = new sqlite3.Database(
   isDev
     ? path.join(__dirname, '../src/db/database.db') // my root folder if in dev mode
@@ -43,8 +46,10 @@ const createWindow = () => {
       : `file://${path.join(__dirname, '../build/index.html')}` // Loading build file if in production
   );
 
-  // Setting Window Icon - Asset file needs to be in the public/images folder. 
+  // Setting Window Icon - Asset file needs to be in the public/images folder.
   mainWindow.setIcon(path.join(__dirname, 'logo192.png'));
+
+  printers = mainWindow.webContents.getPrinters();
 
   // In development mode, if the window has loaded, then load the dev tools.
   if (isDev) {
@@ -154,6 +159,51 @@ ipcMain.handle('set-consulta', (event, args) => new Promise(resolve => {
   db.all("SELECT * FROM lorem", (err, rows) => {
     console.log(rows);
     resolve(rows);
-    
+
   });
 }));
+
+//Lógica Impresión
+ipcMain.on('test-send', async(event, args) => {
+  event.sender.send("dar-cosas", printers)
+});
+
+ipcMain.handle('set-imprime', (event, args) => {
+    const data = [
+      {
+        type: "image",
+        path: path.join(__dirname, "https://static.mayoralonline.com/lib_img/logo/png/logo_n_2020.png"),
+        position: "center",
+        width: "auto",
+        height: "60px",
+      },
+      {
+        type: "text",
+        value: args.item.descart + "<br>Talla "+ args.item.talla + "<br>Color "+ args.item.color + "<br>"+ args.item.pvp+args.item.moneda,
+        style: `text-align:left;`,
+        css: { "font-size": "12px" },
+      }
+    ];
+    const options = {
+      preview: false,
+      width: "100px",
+      margin: "0 0 0 0",
+      copies: 1,
+      printerName: args.printer,
+      timeOutPerLine: 400,
+      silent: true,
+    };
+    const now = {
+      type: "text",
+      value: "",
+      style: `text-align:center;`,
+      css: { "font-size": "12px", "font-family": "sans-serif" },
+    };
+    const d = [...data, now];
+    PosPrinter.print(d, options)
+      .then(() => {})
+      .catch((error) => {
+        console.error(error);
+      });
+});
+//Lógica Impresión

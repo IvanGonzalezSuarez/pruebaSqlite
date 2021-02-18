@@ -10,6 +10,7 @@ import "./router.css";
 import SelectLang from '../components/select-languaje/SelectLang';
 import PantallaInicio from '../components/pantalla-inicio/PantallaInicio';
 import EscaneoCodigo from '../components/escaneo-codigo/EscaneoCodigo';
+import ImpresionFactura from '../components/impresion-factura/ImpresionFactura';
 
 export default function BasicExample() {
     return (
@@ -39,6 +40,9 @@ export default function BasicExample() {
                     </Route>
                     <Route path="/escaneoCodigo">
                         <EscaneoCodigo />
+                    </Route>
+                    <Route path="/ImpresionFactura">
+                        <ImpresionFactura />
                     </Route>
                 </Switch>
             </>
