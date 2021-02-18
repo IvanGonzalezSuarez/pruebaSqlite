@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import {
     BrowserRouter as Router,
     Switch,
@@ -10,6 +10,13 @@ import "./router.css";
 import SelectLang from '../components/select-languaje/SelectLang';
 import PantallaInicio from '../components/pantalla-inicio/PantallaInicio';
 import EscaneoCodigo from '../components/escaneo-codigo/EscaneoCodigo';
+
+
+const Loader = () => (
+    <div className="App">
+        <div>loading...</div>
+    </div>
+);
 
 export default function BasicExample() {
     return (
@@ -32,13 +39,19 @@ export default function BasicExample() {
                     to="/selectLanguaje" />
                 <Switch>
                     <Route exact path="/selectLanguaje">
-                        <SelectLang />
+                        <Suspense fallback={<Loader />}>
+                            <SelectLang />
+                        </Suspense>
                     </Route>
                     <Route path="/pantallaInicio">
-                        <PantallaInicio />
+                        <Suspense fallback={<Loader />}>
+                            <PantallaInicio />
+                        </Suspense>
                     </Route>
                     <Route path="/escaneoCodigo">
-                        <EscaneoCodigo />
+                        <Suspense fallback={<Loader />}>
+                            <EscaneoCodigo />
+                        </Suspense>
                     </Route>
                 </Switch>
             </>

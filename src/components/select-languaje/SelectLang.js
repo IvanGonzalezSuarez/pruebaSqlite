@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./SelectLang.css";
 import MockTiendas from '../../mock/mockTiendas.json'
+import { useTranslation } from 'react-i18next';
+//import resources from '../../mock/idiomas.json';
 
 const inserto = window.api.inserto
 const borro = window.api.borro
@@ -44,10 +46,16 @@ function SelectLang() {
         const response = await consulto({ num: mensaje });
         console.log(response);
         response !== null && response !== undefined ? setResponse(response) : setResponse([]);
-       
-    }
 
+    }
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        console.log(i18n.getDataByLanguage(lng))
+    };
     return (
+
         <>
             <div id='title'>
                 <h1> Select a language </h1>
@@ -66,6 +74,13 @@ function SelectLang() {
                             <input type="button" value="insertar" onClick={insertar} />
                             <input type="button" value="borrar" onClick={borrar} />
                             <input type="button" value="consultar" onClick={consultar} />
+                            <button type="button" onClick={() => changeLanguage('es')}>
+                                es
+                            </button>
+                            <button type="button" onClick={() => changeLanguage('en')}>
+                                en
+                            </button>
+                            <h2>{t('title')}</h2>;
                         </div>
                     })
                     : ""
@@ -74,9 +89,7 @@ function SelectLang() {
                     ?
                     response.map((elemento) => {
                         return <div className="divButton">
-                            
-                                <p>{elemento.info} </p>
-                          
+                            <p>{elemento.info} </p>
                         </div>
                     })
                     : ""

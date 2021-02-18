@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import App from './App';
 import App from './router/router';
 import reportWebVitals from './reportWebVitals';
+import './i18n';
  
 var destination = document.querySelector("#container");
 

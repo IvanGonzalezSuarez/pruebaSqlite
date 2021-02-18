@@ -1,3 +1,3 @@
-2021/02/17-17:36:12.954 6403 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/MANIFEST-000001
-2021/02/17-17:36:12.954 6403 Recovering log #3
-2021/02/17-17:36:12.954 6403 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/000003.log 
+2021/02/18-12:41:25.858 d703 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/MANIFEST-000001
+2021/02/18-12:41:25.858 d703 Recovering log #3
+2021/02/18-12:41:25.858 d703 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/000003.log 
