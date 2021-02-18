@@ -16,8 +16,11 @@ contextBridge.exposeInMainWorld('api', {
 
   borro: (args) => ipcRenderer.invoke('set-borrado', args),
 
-  consulto: async (args) => await ipcRenderer.invoke('set-consulta', args)
+  consulto: async (args) => await ipcRenderer.invoke('set-consulta', args),
+
+  //Logica Impresión
+  darCosas: (args) => ipcRenderer.on('dar-cosas', args),
+  testSend: (args) => ipcRenderer.send('test-send', args),
+  printPosPint: (args) => ipcRenderer.invoke('set-imprime', args)
 
 });
-
-

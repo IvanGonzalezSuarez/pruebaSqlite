@@ -13,7 +13,10 @@ function PantallaInicio() {
                     </Link>
                 </div>
                 <div className="container2">
-                    <input type='button' value="TODO" className="buttonContainer" />
+                    <Link to={{
+                        pathname: '/ImpresionFactura',
+                    }}> <input type='button' value="Imprimir Facturas" className="buttonContainer" />
+                    </Link>
                 </div>
                 <div className="container">
                     <input type='button' value="TODO" className="buttonContainer" />

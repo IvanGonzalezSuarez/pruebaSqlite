@@ -63,8 +63,8 @@ function SelectLang() {
             <div id='main'>
                 {lenguajes.length > 0
                     ?
-                    lenguajes.map((elemento) => {
-                        return <div className="divButton">
+                    lenguajes.map((elemento, key) => {
+                        return <div className="divButton" key={key}>
                             <Link to={{
                                 pathname: '/pantallaInicio',
                                 state: { detail: elemento }

@@ -10,6 +10,7 @@ import "./router.css";
 import SelectLang from '../components/select-languaje/SelectLang';
 import PantallaInicio from '../components/pantalla-inicio/PantallaInicio';
 import EscaneoCodigo from '../components/escaneo-codigo/EscaneoCodigo';
+import ImpresionFactura from '../components/impresion-factura/ImpresionFactura';
 
 
 const Loader = () => (
@@ -52,6 +53,9 @@ export default function BasicExample() {
                         <Suspense fallback={<Loader />}>
                             <EscaneoCodigo />
                         </Suspense>
+                    </Route>
+                    <Route path="/ImpresionFactura">
+                        <ImpresionFactura />
                     </Route>
                 </Switch>
             </>
