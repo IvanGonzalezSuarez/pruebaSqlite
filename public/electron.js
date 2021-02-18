@@ -4,9 +4,6 @@ const path = require('path');
 const { autoUpdater } = require("electron-updater");
 const sqlite3 = require('sqlite3');
 
-
-
-
 let mainWindow;
 const db = new sqlite3.Database(
   isDev
@@ -38,7 +35,7 @@ const createWindow = () => {
       sandbox: true,
     },
   });
-  
+
   // Loading a webpage inside the electron window we just created
   mainWindow.loadURL(
     isDev
@@ -145,17 +142,18 @@ ipcMain.handle('set-insercion', (event, args) => {
 
 ipcMain.handle('set-borrado', (event, args) => {
   console.log("borrado: ")
-  var valor = "Ipsum 0"
-  db.run("DELETE FROM lorem WHERE info= ? ", [valor]);
+  // var valor = "Ipsum 0"
+  db.run("DELETE FROM lorem ");
 
 });
 
 
-ipcMain.handle('set-consulta', (event, args) => {
+ipcMain.handle('set-consulta', (event, args) => new Promise(resolve => {
   console.log("consulta: ")
 
-  db.each("SELECT * FROM lorem", function (err, row) {
-    console.log(row);
+  db.all("SELECT * FROM lorem", (err, rows) => {
+    console.log(rows);
+    resolve(rows);
+    
   });
-
-});
+}));

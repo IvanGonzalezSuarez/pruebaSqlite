@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import "./SelectLang.css";
 import MockTiendas from '../../mock/mockTiendas.json'
 
-const inserto = window.api.inserto 
-const borro = window.api.borro 
-const consulto = window.api.consulto 
+const inserto = window.api.inserto
+const borro = window.api.borro
+const consulto = window.api.consulto
 
 function SelectLang() {
 
     const [lenguajes, setLenguajes] = useState([]);
     const [count] = useState(0);
+    const [response, setResponse] = useState([]);
+
     //const [hola, setHola] = useState(null);
     useEffect(() => {
         async function postData(url = '', data = {}) {
@@ -38,7 +40,11 @@ function SelectLang() {
     }
     async function consultar() {
         var mensaje = 5;
-        await consulto({ num: mensaje })
+
+        const response = await consulto({ num: mensaje });
+        console.log(response);
+        response !== null && response !== undefined ? setResponse(response) : setResponse([]);
+       
     }
 
     return (
@@ -60,6 +66,17 @@ function SelectLang() {
                             <input type="button" value="insertar" onClick={insertar} />
                             <input type="button" value="borrar" onClick={borrar} />
                             <input type="button" value="consultar" onClick={consultar} />
+                        </div>
+                    })
+                    : ""
+                }
+                {response.length > 0
+                    ?
+                    response.map((elemento) => {
+                        return <div className="divButton">
+                            
+                                <p>{elemento.info} </p>
+                          
                         </div>
                     })
                     : ""

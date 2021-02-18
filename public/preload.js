@@ -16,7 +16,7 @@ contextBridge.exposeInMainWorld('api', {
 
   borro: (args) => ipcRenderer.invoke('set-borrado', args),
 
-  consulto: (args) => ipcRenderer.invoke('set-consulta', args)
+  consulto: async (args) => await ipcRenderer.invoke('set-consulta', args)
 
 });
 
