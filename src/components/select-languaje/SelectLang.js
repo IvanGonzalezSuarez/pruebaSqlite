@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 const inserto = window.api.inserto
 const borro = window.api.borro
 const consulto = window.api.consulto
+const prueba = window.api.prueba
 
 function SelectLang() {
 
@@ -36,13 +37,17 @@ function SelectLang() {
         var mensaje = 5;
         await inserto({ num: mensaje })
     }
+    async function prueba() {   
+        const pruebita =  await prueba()
+        console.log(pruebita);
+    }
     async function borrar() {
         var mensaje = 5;
-        await borro({ num: mensaje })
+        await borro({ num: mensaje })   
     }
     async function consultar() {
         var mensaje = 5;
-
+        alert("holis")
         const response = await consulto({ num: mensaje });
         console.log(response);
         response !== null && response !== undefined ? setResponse(response) : setResponse([]);
@@ -73,7 +78,9 @@ function SelectLang() {
                             </Link>
                             <input type="button" value="insertar" onClick={insertar} />
                             <input type="button" value="borrar" onClick={borrar} />
+                            <input type="button" value="prueba" onClick={prueba} />
                             <input type="button" value="consultar" onClick={consultar} />
+                            
                             <button type="button" onClick={() => changeLanguage('es')}>
                                 es
                             </button>

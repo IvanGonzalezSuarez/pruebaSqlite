@@ -10,7 +10,7 @@ contextBridge.exposeInMainWorld('api', {
 
   getBBDD: (args) => ipcRenderer.invoke('get-bbdd', args),
 
-  getHola: (args) => ipcRenderer.invoke('hola', args),
+  prueba: (args) => ipcRenderer.invoke('set-prueba', args),
 
   inserto: (args) => ipcRenderer.invoke('set-insercion', args),
 

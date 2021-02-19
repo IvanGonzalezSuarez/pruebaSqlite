@@ -9,9 +9,10 @@ let mainWindow;
 let printers;
 
 const db = new sqlite3.Database(
+
   isDev
-    ? path.join(__dirname, '../src/db/database.db') // my root folder if in dev mode
-    : path.join(process.resourcesPath, 'src/db/database.db'), // the resources path if in production build
+    ? path.join(__dirname, '../db/database.db') // my root folder if in dev mode
+    : path.join(process.resourcesPath, 'db/database.db'), // the resources path if in production build
   (err) => {
     if (err) {
       console.log(`Database Error: ${err}`);
@@ -19,7 +20,9 @@ const db = new sqlite3.Database(
       console.log('Database Loaded');
     }
   }
+  
 );
+
 // Initializing the Electron Window
 const createWindow = () => {
   mainWindow = new BrowserWindow({
@@ -83,38 +86,10 @@ app.setPath(
     : path.join(process.resourcesPath, 'userdata/') // In production it creates userdata folder in the resources folder
 );
 
-
 app.whenReady().then(async () => {
   await createWindow();
 });
 
-/*class AppDAO {
-  constructor(dbFilePath) {
-    this.db = null;
-    this.db = new sqlite3.Database(dbFilePath, (err) => {
-      if (err) {
-        console.log('Could not connect to database', err)
-      } else {
-        console.log('Connected to database')
-
-      }
-    })
-  }
-  run(sql, params = []) {
-    return new Promise((resolve, reject) => {
-      this.db.run(sql, params, function (err) {
-        if (err) {
-          console.log('Error running sql ' + sql)
-          console.log(err)
-          reject(err)
-        } else {
-          resolve({ id: this.lastID })
-        }
-      })
-    })
-  }
-
-}*/
 function createTable() {
   db.serialize(function () {
 
@@ -147,11 +122,13 @@ ipcMain.handle('set-insercion', (event, args) => {
 
 ipcMain.handle('set-borrado', (event, args) => {
   console.log("borrado: ")
-  // var valor = "Ipsum 0"
   db.run("DELETE FROM lorem ");
-
 });
 
+ipcMain.handle('set-prueba', (event, args) => {
+  console.log("hola")
+  return "hola";
+});
 
 ipcMain.handle('set-consulta', (event, args) => new Promise(resolve => {
   console.log("consulta: ")
@@ -164,46 +141,46 @@ ipcMain.handle('set-consulta', (event, args) => new Promise(resolve => {
 }));
 
 //Lógica Impresión
-ipcMain.on('test-send', async(event, args) => {
+ipcMain.on('test-send', async (event, args) => {
   event.sender.send("dar-cosas", printers)
 });
 
 ipcMain.handle('set-imprime', (event, args) => {
-    const data = [
-      {
-        type: "image",
-        path: path.join(__dirname, "https://static.mayoralonline.com/lib_img/logo/png/logo_n_2020.png"),
-        position: "center",
-        width: "auto",
-        height: "60px",
-      },
-      {
-        type: "text",
-        value: args.item.descart + "<br>Talla "+ args.item.talla + "<br>Color "+ args.item.color + "<br>"+ args.item.pvp+args.item.moneda,
-        style: `text-align:left;`,
-        css: { "font-size": "12px" },
-      }
-    ];
-    const options = {
-      preview: false,
-      width: "100px",
-      margin: "0 0 0 0",
-      copies: 1,
-      printerName: args.printer,
-      timeOutPerLine: 400,
-      silent: true,
-    };
-    const now = {
+  const data = [
+    {
+      type: "image",
+      path: path.join(__dirname, "https://static.mayoralonline.com/lib_img/logo/png/logo_n_2020.png"),
+      position: "center",
+      width: "auto",
+      height: "60px",
+    },
+    {
       type: "text",
-      value: "",
-      style: `text-align:center;`,
-      css: { "font-size": "12px", "font-family": "sans-serif" },
-    };
-    const d = [...data, now];
-    PosPrinter.print(d, options)
-      .then(() => {})
-      .catch((error) => {
-        console.error(error);
-      });
+      value: args.item.descart + "<br>Talla " + args.item.talla + "<br>Color " + args.item.color + "<br>" + args.item.pvp + args.item.moneda,
+      style: `text-align:left;`,
+      css: { "font-size": "12px" },
+    }
+  ];
+  const options = {
+    preview: false,
+    width: "100px",
+    margin: "0 0 0 0",
+    copies: 1,
+    printerName: args.printer,
+    timeOutPerLine: 400,
+    silent: true,
+  };
+  const now = {
+    type: "text",
+    value: "",
+    style: `text-align:center;`,
+    css: { "font-size": "12px", "font-family": "sans-serif" },
+  };
+  const d = [...data, now];
+  PosPrinter.print(d, options)
+    .then(() => { })
+    .catch((error) => {
+      console.error(error);
+    });
 });
 //Lógica Impresión

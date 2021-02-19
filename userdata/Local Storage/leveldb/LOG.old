@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-2021/02/18-12:41:25.858 d703 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/MANIFEST-000001
-2021/02/18-12:41:25.858 d703 Recovering log #3
-2021/02/18-12:41:25.858 d703 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/000003.log 
-=======
-2021/02/18-10:57:33.839 470 Reusing MANIFEST C:\Users\JMJ\Desktop\repoElectron\Nueva carpeta\pruebaSqlite\userdata\Local Storage\leveldb/MANIFEST-000001
->>>>>>> a4a48544489fce475eb29b73b7ebd3bbc767cc59
+2021/02/19-09:59:44.380 271c Reusing MANIFEST C:\Users\IGS\Documents\New folder\pruebaSqlite\userdata\Local Storage\leveldb/MANIFEST-000001
+2021/02/19-09:59:44.380 271c Recovering log #3
+2021/02/19-09:59:44.381 271c Reusing old log C:\Users\IGS\Documents\New folder\pruebaSqlite\userdata\Local Storage\leveldb/000003.log 

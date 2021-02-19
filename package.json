@@ -39,6 +39,7 @@
     "pack-app": "yarn build-react && electron-builder --publish never",
     "pack-app-mac": "yarn build-react && electron-builder --publish always",
     "pack-app-win": "yarn build-react && electron-builder --win --x64 --publish always",
+    "pack-app-win-never": "yarn build-react && electron-builder --win --x64 --publish never",
     "pack-build": "electron-builder --dir",
     "electron-pack": "electron-builder --win -c.extraMetadata.main=build/electron.js",
     "build": "yarn build-react && electron-builder",
@@ -48,7 +49,7 @@
     "eject": "react-scripts eject"
   },
   "main": "public/electron.js",
-  "homepage": ".",
+  "homepage": "./",
   "build": {
     "appId": "com.mayoral.SqliteReact",
     "productName": "Package-sqlite",
@@ -74,7 +75,13 @@
           ]
         }
       ]
-    }
+    },
+    "extraResources": [
+      {
+        "from": "./db",
+        "to": "db"
+      }
+    ]
   },
   "repository": {
     "type": "git",

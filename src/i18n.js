@@ -10,7 +10,12 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: true,
-
+    backend: {
+      loadPath:
+          process.env.NODE_ENV !== "production"
+              ? '/locales/{{lng}}/{{ns}}.json'
+              : './locales/{{lng}}/{{ns}}.json'
+  },
   });
 
 export default i18n;
