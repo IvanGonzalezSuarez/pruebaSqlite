@@ -40,3 +40,423 @@
     at C:\Users\JMJ\Desktop\repoElectron\Nueva carpeta\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
     at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\JMJ\Desktop\repoElectron\Nueva carpeta\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
     at async NsisUpdater.doCheckForUpdates (C:\Users\JMJ\Desktop\repoElectron\Nueva carpeta\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 15:42:48.826] [debug] 
+[2021-02-18 15:42:48.833] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 15:42:48.833] [debug] 
+[2021-02-18 15:42:48.834] [debug] 
+[2021-02-18 15:42:48.835] [error] estanmos
+[2021-02-18 15:42:48.835] [info] Checking for update
+[2021-02-18 15:42:48.836] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 15:42:48.837] [debug] 
+[2021-02-18 15:42:49.120] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:27:46.362] [debug] 
+[2021-02-18 16:27:46.369] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:27:46.370] [debug] 
+[2021-02-18 16:27:46.370] [debug] 
+[2021-02-18 16:27:46.371] [error] estanmos
+[2021-02-18 16:27:46.371] [info] Checking for update
+[2021-02-18 16:27:46.372] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:27:46.372] [debug] 
+[2021-02-18 16:27:46.631] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:28:44.361] [debug] 
+[2021-02-18 16:28:44.368] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:28:44.370] [debug] 
+[2021-02-18 16:28:44.371] [debug] 
+[2021-02-18 16:28:44.373] [error] estanmos
+[2021-02-18 16:28:44.374] [info] Checking for update
+[2021-02-18 16:28:44.375] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:28:44.376] [debug] 
+[2021-02-18 16:28:44.635] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:29:01.955] [debug] 
+[2021-02-18 16:29:01.961] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:29:01.962] [debug] 
+[2021-02-18 16:29:01.963] [debug] 
+[2021-02-18 16:29:01.964] [error] estanmos
+[2021-02-18 16:29:01.965] [info] Checking for update
+[2021-02-18 16:29:01.966] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:29:01.966] [debug] 
+[2021-02-18 16:29:02.234] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:29:26.095] [debug] 
+[2021-02-18 16:29:26.104] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:29:26.105] [debug] 
+[2021-02-18 16:29:26.107] [debug] 
+[2021-02-18 16:29:26.108] [error] estanmos
+[2021-02-18 16:29:26.109] [info] Checking for update
+[2021-02-18 16:29:26.110] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:29:26.111] [debug] 
+[2021-02-18 16:29:26.457] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:36:11.793] [debug] 
+[2021-02-18 16:36:11.799] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:36:11.800] [debug] 
+[2021-02-18 16:36:11.801] [debug] 
+[2021-02-18 16:36:11.803] [error] estanmos
+[2021-02-18 16:36:11.804] [info] Checking for update
+[2021-02-18 16:36:11.806] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:36:11.807] [debug] 
+[2021-02-18 16:36:12.061] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:36:39.318] [debug] 
+[2021-02-18 16:36:39.327] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:36:39.329] [debug] 
+[2021-02-18 16:36:39.331] [debug] 
+[2021-02-18 16:36:39.332] [error] estanmos
+[2021-02-18 16:36:39.335] [info] Checking for update
+[2021-02-18 16:36:39.337] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:36:39.339] [debug] 
+[2021-02-18 16:36:39.650] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:40:14.425] [debug] 
+[2021-02-18 16:40:14.431] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:40:14.433] [debug] 
+[2021-02-18 16:40:14.434] [debug] 
+[2021-02-18 16:40:14.435] [error] estanmos
+[2021-02-18 16:40:14.436] [info] Checking for update
+[2021-02-18 16:40:14.439] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:40:14.440] [debug] 
+[2021-02-18 16:40:14.702] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 16:42:05.741] [debug] 
+[2021-02-18 16:42:05.747] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 16:42:05.749] [debug] 
+[2021-02-18 16:42:05.751] [debug] 
+[2021-02-18 16:42:05.753] [error] estanmos
+[2021-02-18 16:42:05.756] [info] Checking for update
+[2021-02-18 16:42:05.758] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 16:42:05.760] [debug] 
+[2021-02-18 16:42:06.122] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:02:47.368] [debug] 
+[2021-02-18 17:02:47.374] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:02:47.375] [debug] 
+[2021-02-18 17:02:47.375] [debug] 
+[2021-02-18 17:02:47.376] [error] estanmos
+[2021-02-18 17:02:47.378] [info] Checking for update
+[2021-02-18 17:02:47.379] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:02:47.380] [debug] 
+[2021-02-18 17:02:47.773] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:04:37.871] [debug] 
+[2021-02-18 17:04:37.879] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:04:37.880] [debug] 
+[2021-02-18 17:04:37.882] [debug] 
+[2021-02-18 17:04:37.884] [error] estanmos
+[2021-02-18 17:04:37.885] [info] Checking for update
+[2021-02-18 17:04:37.887] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:04:37.888] [debug] 
+[2021-02-18 17:04:38.245] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:06:04.302] [debug] 
+[2021-02-18 17:06:04.308] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:06:04.310] [debug] 
+[2021-02-18 17:06:04.312] [debug] 
+[2021-02-18 17:06:04.314] [error] estanmos
+[2021-02-18 17:06:04.316] [info] Checking for update
+[2021-02-18 17:06:04.320] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:06:04.322] [debug] 
+[2021-02-18 17:06:04.589] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:06:56.749] [debug] 
+[2021-02-18 17:06:56.756] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:06:56.758] [debug] 
+[2021-02-18 17:06:56.760] [debug] 
+[2021-02-18 17:06:56.761] [error] estanmos
+[2021-02-18 17:06:56.764] [info] Checking for update
+[2021-02-18 17:06:56.765] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:06:56.767] [debug] 
+[2021-02-18 17:06:57.069] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:07:18.304] [debug] 
+[2021-02-18 17:07:18.310] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:07:18.311] [debug] 
+[2021-02-18 17:07:18.312] [debug] 
+[2021-02-18 17:07:18.314] [error] estanmos
+[2021-02-18 17:07:18.316] [info] Checking for update
+[2021-02-18 17:07:18.317] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:07:18.319] [debug] 
+[2021-02-18 17:07:18.569] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:10:50.658] [debug] 
+[2021-02-18 17:10:50.663] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:10:50.664] [debug] 
+[2021-02-18 17:10:50.665] [debug] 
+[2021-02-18 17:10:50.666] [error] estanmos
+[2021-02-18 17:10:50.666] [info] Checking for update
+[2021-02-18 17:10:50.667] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:10:50.668] [debug] 
+[2021-02-18 17:10:50.892] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:15:06.538] [debug] 
+[2021-02-18 17:15:06.544] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:15:06.545] [debug] 
+[2021-02-18 17:15:06.547] [debug] 
+[2021-02-18 17:15:06.548] [error] estanmos
+[2021-02-18 17:15:06.549] [info] Checking for update
+[2021-02-18 17:15:06.551] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:15:06.552] [debug] 
+[2021-02-18 17:15:06.848] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:16:07.111] [debug] 
+[2021-02-18 17:16:07.117] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:16:07.119] [debug] 
+[2021-02-18 17:16:07.120] [debug] 
+[2021-02-18 17:16:07.121] [error] estanmos
+[2021-02-18 17:16:07.123] [info] Checking for update
+[2021-02-18 17:16:07.125] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:16:07.125] [debug] 
+[2021-02-18 17:16:07.446] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:17:14.905] [debug] 
+[2021-02-18 17:17:14.910] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:17:14.912] [debug] 
+[2021-02-18 17:17:14.914] [debug] 
+[2021-02-18 17:17:14.916] [error] estanmos
+[2021-02-18 17:17:14.918] [info] Checking for update
+[2021-02-18 17:17:14.920] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:17:14.923] [debug] 
+[2021-02-18 17:17:15.183] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:20:22.063] [debug] 
+[2021-02-18 17:20:22.071] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:20:22.074] [debug] 
+[2021-02-18 17:20:22.075] [debug] 
+[2021-02-18 17:20:22.076] [error] estanmos
+[2021-02-18 17:20:22.077] [info] Checking for update
+[2021-02-18 17:20:22.079] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:20:22.079] [debug] 
+[2021-02-18 17:20:22.432] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:20:44.465] [debug] 
+[2021-02-18 17:20:44.470] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:20:44.471] [debug] 
+[2021-02-18 17:20:44.472] [debug] 
+[2021-02-18 17:20:44.473] [error] estanmos
+[2021-02-18 17:20:44.474] [info] Checking for update
+[2021-02-18 17:20:44.475] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:20:44.476] [debug] 
+[2021-02-18 17:20:44.743] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:22:08.311] [debug] 
+[2021-02-18 17:22:08.319] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:22:08.320] [debug] 
+[2021-02-18 17:22:08.320] [debug] 
+[2021-02-18 17:22:08.321] [error] estanmos
+[2021-02-18 17:22:08.322] [info] Checking for update
+[2021-02-18 17:22:08.323] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:22:08.323] [debug] 
+[2021-02-18 17:22:08.605] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:22:27.927] [debug] 
+[2021-02-18 17:22:27.934] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:22:27.935] [debug] 
+[2021-02-18 17:22:27.937] [debug] 
+[2021-02-18 17:22:27.938] [error] estanmos
+[2021-02-18 17:22:27.940] [info] Checking for update
+[2021-02-18 17:22:27.942] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:22:27.944] [debug] 
+[2021-02-18 17:22:28.215] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:42:35.474] [debug] 
+[2021-02-18 17:42:35.480] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:42:35.481] [debug] 
+[2021-02-18 17:42:35.482] [debug] 
+[2021-02-18 17:42:35.482] [error] estanmos
+[2021-02-18 17:42:35.483] [info] Checking for update
+[2021-02-18 17:42:35.484] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:42:35.485] [debug] 
+[2021-02-18 17:42:35.594] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:43:11.159] [debug] 
+[2021-02-18 17:43:11.168] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:43:11.170] [debug] 
+[2021-02-18 17:43:11.171] [debug] 
+[2021-02-18 17:43:11.172] [error] estanmos
+[2021-02-18 17:43:11.173] [info] Checking for update
+[2021-02-18 17:43:11.175] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:43:11.177] [debug] 
+[2021-02-18 17:43:11.292] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:45:00.540] [debug] 
+[2021-02-18 17:45:00.550] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:45:00.552] [debug] 
+[2021-02-18 17:45:00.553] [debug] 
+[2021-02-18 17:45:00.555] [error] estanmos
+[2021-02-18 17:45:00.557] [info] Checking for update
+[2021-02-18 17:45:00.561] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:45:00.564] [debug] 
+[2021-02-18 17:45:00.714] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:46:27.416] [debug] 
+[2021-02-18 17:46:27.422] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:46:27.422] [debug] 
+[2021-02-18 17:46:27.424] [debug] 
+[2021-02-18 17:46:27.426] [error] estanmos
+[2021-02-18 17:46:27.427] [info] Checking for update
+[2021-02-18 17:46:27.429] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:46:27.431] [debug] 
+[2021-02-18 17:46:27.653] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-18 17:46:54.570] [debug] 
+[2021-02-18 17:46:54.577] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-18 17:46:54.578] [debug] 
+[2021-02-18 17:46:54.579] [debug] 
+[2021-02-18 17:46:54.580] [error] estanmos
+[2021-02-18 17:46:54.581] [info] Checking for update
+[2021-02-18 17:46:54.583] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-18 17:46:54.584] [debug] 
+[2021-02-18 17:46:54.846] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-19 09:44:09.979] [debug] 
+[2021-02-19 09:44:09.985] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-19 09:44:09.986] [debug] 
+[2021-02-19 09:44:09.987] [debug] 
+[2021-02-19 09:44:09.987] [error] estanmos
+[2021-02-19 09:44:09.988] [info] Checking for update
+[2021-02-19 09:44:09.989] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-19 09:44:09.990] [debug] 
+[2021-02-19 09:44:10.293] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-19 09:59:44.332] [debug] 
+[2021-02-19 09:59:44.341] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-19 09:59:44.342] [debug] 
+[2021-02-19 09:59:44.344] [debug] 
+[2021-02-19 09:59:44.345] [error] estanmos
+[2021-02-19 09:59:44.346] [info] Checking for update
+[2021-02-19 09:59:44.348] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-19 09:59:44.351] [debug] 
+[2021-02-19 09:59:44.671] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)
+[2021-02-19 10:00:28.412] [debug] 
+[2021-02-19 10:00:28.419] [debug] *****************  Aplicacion arrancada  ********************
+[2021-02-19 10:00:28.421] [debug] 
+[2021-02-19 10:00:28.422] [debug] 
+[2021-02-19 10:00:28.423] [error] estanmos
+[2021-02-19 10:00:28.424] [info] Checking for update
+[2021-02-19 10:00:28.425] [info] Skip checkForUpdatesAndNotify because application is not packed
+[2021-02-19 10:00:28.426] [debug] 
+[2021-02-19 10:00:28.683] [error] Error: Error: Unsupported provider: undefined
+    at newError (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\builder-util-runtime\out\index.js:212:17)
+    at createClient (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\providerFactory.js:107:48)
+    at C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:491:99
+    at async NsisUpdater.getUpdateInfoAndProvider (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:494:20)
+    at async NsisUpdater.doCheckForUpdates (C:\Users\IGS\Documents\New folder\pruebaSqlite\node_modules\electron-updater\out\AppUpdater.js:516:20)

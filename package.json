@@ -15,6 +15,8 @@
     "electron-updater": "^4.3.5",
     "i18next": "^19.8.9",
     "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-electron-fs-backend": "^1.3.5",
+    "i18next-fs-backend": "^1.0.8",
     "i18next-http-backend": "^1.1.0",
     "i18next-xhr-backend": "^3.2.2",
     "node-gyp": "^7.1.2",
@@ -39,6 +41,7 @@
     "pack-app": "yarn build-react && electron-builder --publish never",
     "pack-app-mac": "yarn build-react && electron-builder --publish always",
     "pack-app-win": "yarn build-react && electron-builder --win --x64 --publish always",
+    "pack-app-win-never": "yarn build-react && electron-builder --win --x64 --publish never",
     "pack-build": "electron-builder --dir",
     "electron-pack": "electron-builder --win -c.extraMetadata.main=build/electron.js",
     "build": "yarn build-react && electron-builder",
@@ -48,7 +51,7 @@
     "eject": "react-scripts eject"
   },
   "main": "public/electron.js",
-  "homepage": ".",
+  "homepage": "./",
   "build": {
     "appId": "com.mayoral.SqliteReact",
     "productName": "Package-sqlite",
@@ -74,7 +77,17 @@
           ]
         }
       ]
-    }
+    },
+    "extraResources": [
+      {
+        "from": "./db",
+        "to": "db"
+      },
+      {
+        "from": "./locales",
+        "to": "locales"
+      }
+    ]
   },
   "repository": {
     "type": "git",

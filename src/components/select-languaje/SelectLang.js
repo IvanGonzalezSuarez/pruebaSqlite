@@ -22,7 +22,7 @@ function SelectLang() {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
-            });
+            }); 
             return response.json();
         }
 
@@ -36,13 +36,13 @@ function SelectLang() {
         var mensaje = 5;
         await inserto({ num: mensaje })
     }
+   
     async function borrar() {
         var mensaje = 5;
-        await borro({ num: mensaje })
+        await borro({ num: mensaje })   
     }
     async function consultar() {
         var mensaje = 5;
-
         const response = await consulto({ num: mensaje });
         console.log(response);
         response !== null && response !== undefined ? setResponse(response) : setResponse([]);
@@ -74,6 +74,7 @@ function SelectLang() {
                             <input type="button" value="insertar" onClick={insertar} />
                             <input type="button" value="borrar" onClick={borrar} />
                             <input type="button" value="consultar" onClick={consultar} />
+                            
                             <button type="button" onClick={() => changeLanguage('es')}>
                                 es
                             </button>

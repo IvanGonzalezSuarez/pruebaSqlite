@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState, useEffect } from "react";
-import MockTiendas from '../../mock/mockTiendas.json'
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "./ImpresionFactura.css";
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -23,6 +21,7 @@ function PantallaInicio() {
       if(printers && document.getElementById("list_printers").innerHTML === ""){
         printers.map((item, index) => {
           document.getElementById("list_printers").innerHTML += '<div class="radio"><input type="radio" name="printer" value="' + item.name + '"><label for="printer_' + index + '"><span>' + item.name + "</span></label></div>";
+          return true;
         });
       }
     }
