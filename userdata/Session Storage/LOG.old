@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-2021/02/18-12:41:26.396 12203 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Session Storage/MANIFEST-000001
-2021/02/18-12:41:26.396 12203 Recovering log #3
-2021/02/18-12:41:26.396 12203 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Session Storage/000003.log 
-=======
-2021/02/18-10:58:05.505 2df0 Reusing MANIFEST C:\Users\JMJ\Desktop\repoElectron\Nueva carpeta\pruebaSqlite\userdata\Session Storage/MANIFEST-000001
->>>>>>> a4a48544489fce475eb29b73b7ebd3bbc767cc59
+2021/02/18-12:52:05.530 9807 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Session Storage/MANIFEST-000001
+2021/02/18-12:52:05.530 9807 Recovering log #3
+2021/02/18-12:52:05.530 9807 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Session Storage/000003.log 
