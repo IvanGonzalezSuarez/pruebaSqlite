@@ -10,11 +10,11 @@ i18n
       loadPath:
         process.env.NODE_ENV !== "production"
           ? './public/locales/{{lng}}/{{ns}}.json'
-          : './build/locales/{{lng}}/{{ns}}.json', 
+          : './resources/locales/{{lng}}/{{ns}}.json', 
       addPath:
         process.env.NODE_ENV !== "production"
           ? './locales/{{lng}}/{{ns}}.missing.json'
-          : './locales/{{lng}}/{{ns}}.missing.json',
+          : './resources/locales1/{{lng}}/{{ns}}.missing.json',
       ipcRenderer: window.api.i18nextElectronBackend
     },
     debug: true,
