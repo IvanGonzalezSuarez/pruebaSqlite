@@ -80,7 +80,7 @@
     },
     "extraResources": [
       {
-        "from": "./db",
+        "from": "./dbPro",
         "to": "db"
         
       },
