@@ -6,15 +6,27 @@ const { autoUpdater } = require("electron-updater");
 const sqlite3 = require('sqlite3');
 const backend = require("i18next-electron-fs-backend");
 const fs = require("fs");
+const os = require("os");
+const execSync = require('child_process').execSync;
+
+//const stdout = execSync('wmic computersystem get model/value'); 
+const stdout = execSync('wmic ComputerSystem Get model/value');
+var a = `${stdout}`;
+
+console.log(a.trim() === "Model=PPC3100")
 
 let mainWindow;
 let printers;
 
+// With checking if dir already exists
+//if (!fs.existsSync(path.join(__dirname, '../db'))) fs.mkdir(path.join(__dirname, '../db'));
+mkDirByPathSync(path.join(os.homedir(), 'AppData/Roaming/tiendamayoral/db'));
+console.log(path.join(os.homedir(), 'AppData/Roaming/tiendamayoral/db'))
 const db = new sqlite3.Database(
 
   isDev
     ? path.join(__dirname, '../db/database.db') // my root folder if in dev mode
-    : path.join(process.resourcesPath, 'db/database.db'), // the resources path if in production build
+    : path.join(os.homedir(), 'AppData/Roaming/tiendamayoral/db/database.db'), // the resources path if in production build
   (err) => {
     if (err) {
       console.log(`Database Error: ${err}`);
@@ -23,7 +35,34 @@ const db = new sqlite3.Database(
     }
   }
 );
+function mkDirByPathSync(targetDir, { isRelativeToScript = false } = {}) {
+  const sep = path.sep;
+  const initDir = path.isAbsolute(targetDir) ? sep : '';
+  const baseDir = isRelativeToScript ? __dirname : '.';
 
+  return targetDir.split(sep).reduce((parentDir, childDir) => {
+    const curDir = path.resolve(baseDir, parentDir, childDir);
+    try {
+      fs.mkdirSync(curDir);
+    } catch (err) {
+      if (err.code === 'EEXIST') { // curDir already exists!
+        return curDir;
+      }
+
+      // To avoid `EISDIR` error on Mac and `EACCES`-->`ENOENT` and `EPERM` on Windows.
+      if (err.code === 'ENOENT') { // Throw the original parentDir error on curDir `ENOENT` failure.
+        throw new Error(`EACCES: permission denied, mkdir '${parentDir}'`);
+      }
+
+      const caughtErr = ['EACCES', 'EPERM', 'EISDIR'].indexOf(err.code) > -1;
+      if (!caughtErr || (caughtErr && curDir === path.resolve(targetDir))) {
+        throw err; // Throw if it's just the last created dir.
+      }
+    }
+
+    return curDir;
+  }, initDir);
+}
 // Initializing the Electron Window
 const createWindow = () => {
   mainWindow = new BrowserWindow({
@@ -76,7 +115,7 @@ app.on("ready", function () {
   autoUpdater.checkForUpdatesAndNotify();
   log.debug("");
   log.debug("FDSHHGZ:" + process.resourcesPath);
-  
+
   createTable();
 });
 
