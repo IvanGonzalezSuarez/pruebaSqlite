@@ -80,11 +80,6 @@
     },
     "extraResources": [
       {
-        "from": "./dbPro",
-        "to": "db"
-        
-      },
-      {
         "from": "./locales",
         "to": "locales"
       }

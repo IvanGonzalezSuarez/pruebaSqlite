@@ -1,3 +1,6 @@
-2021/02/19-17:26:47.069 1538 Reusing MANIFEST C:\Users\IGS\Documents\New folder\pruebaSqlite\userdata\Local Storage\leveldb/MANIFEST-000001
-2021/02/19-17:26:47.070 1538 Recovering log #3
-2021/02/19-17:26:47.071 1538 Reusing old log C:\Users\IGS\Documents\New folder\pruebaSqlite\userdata\Local Storage\leveldb/000003.log 
+2021/02/22-09:51:25.996 6603 Reusing MANIFEST /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/MANIFEST-000001
+2021/02/22-09:51:25.996 6603 Recovering log #3
+2021/02/22-09:51:25.996 6603 Reusing old log /Users/igs/Documents/Proyectos/sqlite/ejemplos/Tienda/tiendamayoral/userdata/Local Storage/leveldb/000003.log 
+2021/02/22-09:58:16.593 14e07 Level-0 table #5: started
+2021/02/22-09:58:16.604 14e07 Level-0 table #5: 8977 bytes OK
+2021/02/22-09:58:16.618 14e07 Delete type=0 #3
