@@ -1,104 +1,52 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import "./SelectLang.css";
-import MockTiendas from '../../mock/mockTiendas.json'
-import { useTranslation } from 'react-i18next';
-//import resources from '../../mock/idiomas.json';
+import Traductor from '../translation/Traductor';
+import Modal from 'react-bootstrap/Modal';
 
-const inserto = window.api.inserto
-const borro = window.api.borro
-const consulto = window.api.consulto
 
-function SelectLang() {
+export default class SelectLanguaje extends React.Component {
+    constructor(props) {
+        super(props);
 
-    const [lenguajes, setLenguajes] = useState([]);
-    const [count] = useState(0);
-    const [response, setResponse] = useState([]);
-
-    //const [hola, setHola] = useState(null);
-    useEffect(() => {
-        async function postData(url = '', data = {}) {
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(data)
-            }); 
-            return response.json();
+        this.state = {
+            response: null,
+            lenguajes: this.props.idiomas
         }
-
-        postData(MockTiendas.URL + 'CONSPGM02', MockTiendas.CONSPGMO2)
-            .then(data => {
-                setLenguajes(data.datos.idiomas);
-            });
-    }, [count]);
-
-    async function insertar() {
-        var mensaje = 5;
-        await inserto({ num: mensaje })
+    
     }
-   
-    async function borrar() {
-        var mensaje = 5;
-        await borro({ num: mensaje })   
+    render() {
+        return (
+            <>
+                {this.props.habilitaLang === true ?
+                    <Modal
+                        show={true}
+                        backdrop="static"
+                        keyboard={false}
+                        centered
+                    >
+                        <Modal.Body>
+                            <div>
+                                <div id='title'>
+                                    <h1><Traductor text={"SELECT"} /></h1>
+                                </div>
+                                <div id='main'>
+                                    {this.props.idiomas !== null
+                                        ?
+                                        this.props.idiomas.map((elemento, key) => {
+                                            return <div className="divButton" key={key}>
+                                                <input type="image" src={elemento.bandera} onClick={() => this.props.changeLanguage(elemento.idiomajs)} alt={elemento.descri} />
+                                            </div>
+                                        })
+                                        : ""
+                                    }
+                                </div>
+                            </div>
+                        </Modal.Body>
+                    </Modal>
+
+                    : ""}
+            </>
+        );
     }
-    async function consultar() {
-        var mensaje = 5;
-        const response = await consulto({ num: mensaje });
-        console.log(response);
-        response !== null && response !== undefined ? setResponse(response) : setResponse([]);
-
-    }
-    const { t, i18n } = useTranslation();
-
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
-        console.log(i18n.getDataByLanguage(lng))
-    };
-    return (
-
-        <>
-            <div id='title'>
-                <h1> Select a language </h1>
-            </div>
-            <div id='main'>
-                {lenguajes.length > 0
-                    ?
-                    lenguajes.map((elemento, key) => {
-                        return <div className="divButton" key={key}>
-                            <Link to={{
-                                pathname: '/pantallaInicio',
-                                state: { detail: elemento }
-                            }}>
-                                <input type="image" src={elemento.bandera} alt={elemento.descri} />
-                            </Link>
-                            <input type="button" value="insertar" onClick={insertar} />
-                            <input type="button" value="borrar" onClick={borrar} />
-                            <input type="button" value="consultar" onClick={consultar} />
-                            
-                            <button type="button" onClick={() => changeLanguage('es')}>
-                                es
-                            </button>
-                            <button type="button" onClick={() => changeLanguage('en')}>
-                                en
-                            </button>
-                            <h2>{t('title')}</h2>
-                        </div>
-                    })
-                    : ""
-                }
-                {response.length > 0
-                    ?
-                    response.map((elemento) => {
-                        return <div className="divButton">
-                            <p>{elemento.info} </p>
-                        </div>
-                    })
-                    : ""
-                }
-            </div>
-        </>
-    );
-
 }
 
-export default SelectLang;

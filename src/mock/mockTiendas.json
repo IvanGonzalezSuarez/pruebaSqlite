@@ -1,181 +1,203 @@
 {
     "URL": "https://api400.mayoral.com/shop/",
-    "CONSPGMO2": {
-        "name": "CONSPGMO2",
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "area": "SHOP",
-            "programa": "CONSPGM02",
-            "body": {
-                "tienda": 501,
-                "cod_dev": 1,
-                "tip_dev": "P"
-            }
+    "contenido": [
+        {
+  
+                "name": "CONSPGMO2",
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "CONSPGM02",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "cod_dev": 1,
+                        "tip_dev": "P",
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+
+        },
+        {
+
+                "name": "CONSPGMO3",
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "CONSPGM03",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "idioma": "G",
+                        "codbar": "8445054585516",
+                        "tip_dev": "P",
+                        "cod_dev": 1,
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+        },
+        {
+                "name": "REGPGM00",
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "REGPGM00",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "tip_dev": "P",
+                        "cod_dev": 1,
+                        "forzarc": "N",
+                        "dev_modelo": "PPC3100",
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+        },
+        {
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "TRADUCE01",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "grupo_app": 4,
+                        "idioma": "E",
+                        "traducciones": [
+                            "ATRAS",
+                            "ACEPTAR"
+                        ]
+                    }
+                }
+        },
+        {
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "TPVPGM15",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "tip_dev": "C",
+                        "cod_dev": 1,
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+        },
+        {
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "TPVPGM16",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "tip_dev": "C",
+                        "cod_dev": 1,
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+        },
+        {
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "TPVPGM21",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "fecha": 20210112,
+                        "tip_dev": "C",
+                        "cod_dev": 1,
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
+        },
+        {
+                "cordova": "7.1.4",
+                "manufacturer": "Google",
+                "model": "Android SDK built for x86",
+                "platform": "Android",
+                "serial": "EMULATOR30X1X5X0",
+                "appuuid": "3c3a202e9458bf27",
+                "version": "8.1.0",
+                "versionapp": 20210123,
+                "appid": 4,
+                "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
+                "datos": {
+                    "programa": "TPVPGM22",
+                    "area": "SHOP",
+                    "version": "0",
+                    "body": {
+                        "tienda": 501,
+                        "ticket": 238917,
+                        "tip_dev": "T",
+                        "cod_dev": 1,
+                        "uid_dev": "@PRUEBAS@D6D1A5E98E10004AC1DA88E8000000000000000D533877159F4BA10"
+                    }
+                }
         }
-    },
-    "CONSPGM03": {
-        "name": "CONSPGMO3",
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "area": "SHOP",
-            "programa": "CONSPGM03",
-            "body": {
-                "tienda": 501,
-                "idioma": "G",
-                "codbar": "8445054585516",
-                "tip_dev": "P",
-                "cod_dev": 1
-            }
-        }
-    },
-    "REGPGM00": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "REGPGM00",
-            "area": "SHOP",
-            "body": {
-                "tienda": 501,
-                "tip_dev": "P",
-                "cod_dev": 1,
-                "forzarc": "N",
-                "dev_modelo": "PPC3100"
-            }
-        }
-    },
-    "TRADUCE01": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "TRADUCE01",
-            "body": {
-                "grupo_app": 4,
-                "idioma": "E",
-                "traducciones": [
-                    "ATRAS",
-                    "ACEPTAR"
-                ]
-            }
-        }
-    },
-    "TPVPGM15": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "TPVPGM15",
-            "area": "SHOP",
-            "body": {
-                "tienda": 501,
-                "tip_dev": "C",
-                "cod_dev": 1
-            }
-        }
-    },
-    "TPVPGM16": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "TPVPGM16",
-            "area": "SHOP",
-            "body": {
-                "tienda": 501,
-                "tip_dev": "C",
-                "cod_dev": 1
-            }
-        }
-    },
-    "TPVPGM21": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "TPVPGM21",
-            "area": "SHOP",
-            "body": {
-                "tienda": 501,
-                "fecha": 20210112,
-                "tip_dev": "C",
-                "cod_dev": 1
-            }
-        }
-    },
-    "TPVPGM22": {
-        "cordova": "7.1.4",
-        "manufacturer": "Google",
-        "model": "Android SDK built for x86",
-        "platform": "Android",
-        "serial": "EMULATOR30X1X5X0",
-        "appuuid": "3c3a202e9458bf27",
-        "version": "8.1.0",
-        "versionapp": 20210123,
-        "appid": 4,
-        "tokenSes": "e8d9f7b86caf4b4586f75aafc0a8ca5c4e6becd1f20444f080",
-        "datos": {
-            "programa": "TPVPGM22",
-            "area": "SHOP",
-            "body": {
-                "tienda": 501,
-                "ticket": 238917,
-                "tip_dev": "T",
-                "cod_dev": 1
-            }
-        }
-    }
+    ]
 }

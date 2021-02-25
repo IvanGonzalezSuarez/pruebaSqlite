@@ -12,7 +12,7 @@ contextBridge.exposeInMainWorld('api', {
 
   getBBDD: (args) => ipcRenderer.invoke('get-bbdd', args),
 
-  inserto: (args) => ipcRenderer.invoke('set-insercion', args),
+  inserto: (args) => ipcRenderer.send('set-insercion', args),
 
   borro: (args) => ipcRenderer.invoke('set-borrado', args),
 

@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
+import Traductor, { Translation } from '../translation/Traductor';
 
 function PantallaInicio() {
     let item = {"articulo:":1079,"color":58,"talla":"18","descart":"T-Shirt k","desccol":"Rosa","pvp":14.99,"moneda":"EUR.","imgpath":"https://media.mayoral.com/wcsstore/mayoral/images/catalog/mayoral/","imagenes":["21-01079-058-140-4.JPG"]}
@@ -52,15 +53,15 @@ function PantallaInicio() {
                   <Card.Text>{item.descart}</Card.Text>
                   <Card.Text>Color {item.desccol}</Card.Text>
                   <Card.Text>{item.pvp + item.moneda}</Card.Text>
-                  <Button variant="dark" onClick={print}>Imprimir</Button>
+                  <Button variant="dark" onClick={print}><Traductor text={"IMPRIMIR"} /></Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
           <Row>
             <Col>
-              <Button variant="info" onClick={takePrinters}>Buscar immpresoras</Button>
-              <Button variant="info" onClick={printDevices}>Seleccionar impresora</Button>
+              <Button variant="info" onClick={takePrinters}><Traductor text={"BUSCAR IMPRESORA"} /></Button>
+              <Button variant="info" onClick={printDevices}><Traductor text={"SELECCIONAR IMPRESORA"} /></Button>
               <div id='list_printers'></div>
             </Col>
           </Row>

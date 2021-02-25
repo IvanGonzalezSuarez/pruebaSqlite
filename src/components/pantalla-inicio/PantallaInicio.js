@@ -1,7 +1,15 @@
-import React from "react";
+import React, { Suspense } from "react";
+import Traductor, { Translation } from '../translation/Traductor';
 import "./PantallaInicio.css";
 
 import { Link } from "react-router-dom";
+
+const Loader = () => (
+    <div className="App">
+        <div>loading...</div>
+    </div>
+);
+
 function PantallaInicio() {
     return (
         <>
@@ -9,20 +17,21 @@ function PantallaInicio() {
                 <div className="container">
                     <Link to={{
                         pathname: '/escaneoCodigo',
-                    }}> <input type='button' value="Escanear Código" className="buttonContainer" />
+                    }}> <h1 className="buttonContainer"><Traductor text={"ESCANEAR"} /></h1>
+
                     </Link>
                 </div>
                 <div className="container2">
                     <Link to={{
                         pathname: '/ImpresionFactura',
-                    }}> <input type='button' value="Imprimir Facturas" className="buttonContainer" />
+                    }}> <h1 className="buttonContainer"><Traductor text={"IMPRIMIR"} /></h1>
                     </Link>
                 </div>
                 <div className="container">
-                    <input type='button' value="TODO" className="buttonContainer" />
+                    <h1 className="buttonContainer"><Traductor text={"TODO"} /></h1>
                 </div>
                 <div className="container2">
-                    <input type='button' value="TODO" className="buttonContainer" />
+                    <h1 className="buttonContainer"><Traductor text={"TODO"} /></h1>
                 </div>
             </div>
         </>

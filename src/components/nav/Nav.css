@@ -1,0 +1,29 @@
+.nav{
+    width: 100%;
+    background-color: #0172ea;
+    position: fixed;
+    z-index: 1;
+}
+.pais{
+    width: 10%;
+}
+.pais a{
+    display: flex;
+    padding: 5%;
+}
+.atras{
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.divLogo{
+    width: 90%;
+    background-color: #0172ea;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{ 
+   width: 30%;
+}
+
+

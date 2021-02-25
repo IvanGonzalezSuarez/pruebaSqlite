@@ -1,1 +1,14 @@
-{"title":"bdsfbhbdfjkbfdkbfkdkhsdfbx"}
+{
+    "SELECT": "Select languaje",
+    "ESCANEAR": "Code scan",
+    "IMPRIMIR": "Print",
+    "CERRAR": "Close",
+    "ACEPTAR": "Acept",
+    "DESCRIPCION": "Description / Composition",
+    "BUSCAR IMPRESORA": "Search Printer",
+    "SELECCIONAR IMPRESORA": "Select Printer",
+    "TIENDA": "Shop",
+    "NUMERO DIS":"Number Device",
+    "TIPO DIS": "Type Device",
+    "REGISTRAR": "Register Device"
+}

@@ -134,7 +134,7 @@ app.whenReady().then(async () => {
 function createTable() {
   db.serialize(function () {
 
-    db.run("CREATE TABLE if not exists lorem (info TEXT)");
+    db.run("CREATE TABLE if not exists dispositivo (tienda NUMBER, cod_dev NUMBER, tip_dev TEXT, dev_modelo TEXT, uid TEXT)");
 
 
   });
@@ -151,25 +151,23 @@ ipcMain.handle('get-bbdd', (event, args) => {
   });
 });
 
-ipcMain.handle('set-insercion', (event, args) => {
-  console.log("Inserto")
-  var stmt = db.prepare("INSERT INTO lorem VALUES (?)");
-  for (var i = 0; i < args.num; i++) {
-    stmt.run("Ipsum " + i);
-  }
+ipcMain.on('set-insercion', (event, args) => {
+  console.log("yeah")
+  console.log(args)
+  var stmt = db.prepare("INSERT INTO dispositivo (tienda, cod_dev, tip_dev,dev_modelo,uid)VALUES (?,?,?,?,?)");
+  stmt.run(args.tienda, args.cod_dev, args.tip_dev, args.dev_modelo, args.uid);
   stmt.finalize();
-
 });
 
 ipcMain.handle('set-borrado', (event, args) => {
   console.log("borrado: ")
-  db.run("DELETE FROM lorem ");
+  db.run("DELETE FROM dispositivo ");
 });
 
 ipcMain.handle('set-consulta', (event, args) => new Promise(resolve => {
   console.log("consulta: ")
 
-  db.all("SELECT * FROM lorem", (err, rows) => {
+  db.all("SELECT * FROM dispositivo", (err, rows) => {
     console.log(rows);
     resolve(rows);
 
